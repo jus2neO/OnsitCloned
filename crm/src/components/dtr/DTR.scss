@@ -1,0 +1,22 @@
+.dtr-container{
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dtr{
+        border: 1px solid #33333326;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 2px 2px 5px #33333363;
+    }
+}
+
+.dtr-list-container{
+    margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+.student-img{
+    width: 250px;
+    img {
+        width: 100%;
+    }
+}
+
+.student-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modify-btn-container{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.inline {
+    display: flex;
+}
+
+.form-group.inline {
+    input {
+        margin-left: 10px;
+    }
+}
+
+.student-details{
+    margin-top: 20px;
+}

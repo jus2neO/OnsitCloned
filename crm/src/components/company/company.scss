@@ -1,0 +1,39 @@
+.company-configuration-container{
+    .add-btn {
+        font-size: 32px;
+        color: #6262ff;
+        padding: 0;    
+    }
+}
+
+.company-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-top: 35px;
+
+    .divider{
+        position: absolute;
+        bottom: 70px;
+        left: 0;
+    }
+}
+
+.company-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-check {
+    input, label{
+        cursor: pointer;
+    }
+}
+
+.upload-icon{
+    width: 150px;
+
+    img{
+        width: 100%;
+    }
+}

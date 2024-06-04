@@ -1,0 +1,80 @@
+.navbar{
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+    a{
+        color: #fff;
+    }
+}
+
+.layout-container{
+    padding: 70px 20px 20px 20px;
+}
+
+.navbar {
+    .dropdown-menu {
+        a {
+            color: #333;
+        }
+    }
+
+    .dropdown {
+        .dropdown-toggle {
+            i {
+                font-size: 24px;
+            }
+        }
+
+        .dropdown-toggle::after {
+            display: none;
+        }
+    }
+}
+
+.user-nav{
+    display: flex;
+    gap: 20px;
+}
+
+div[aria-labelledby="notification-dropdown"]{
+    width: 250px;
+}
+
+.notification-container{
+    a {
+        white-space: unset;
+    }
+    p{
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .notification{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        i{
+            font-size: 20px;
+        }
+    }
+}
+
+.notif-bell{
+    .dot {
+        width: 10px;
+        height: 10px;
+        background: red;
+        position: absolute;
+        border-radius: 50%;
+        top: 5px;
+        right: 0px;
+    }
+}

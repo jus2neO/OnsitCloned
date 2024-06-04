@@ -1,0 +1,45 @@
+.course-configuration-container{
+    .add-btn {
+        font-size: 32px;
+        color: #6262ff;
+        padding: 0;    
+    }
+}
+
+.course-level-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-top: 35px;
+
+    .divider{
+        position: absolute;
+        bottom: 70px;
+        left: 0;
+    }
+}
+
+.course-level-container{
+    text-align: center;
+}
+
+.course-level-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-btn-container{
+    button:first-child {
+        margin-right: 20px;
+    }
+}
+
+.no-company-info{
+    font-size: 14px;
+}
+
+.pending-company-approval-container{
+    .course{
+        margin-bottom: 15px;
+    }
+}

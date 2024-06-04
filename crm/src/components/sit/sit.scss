@@ -1,0 +1,29 @@
+.sit-configuration-container{
+    .add-btn {
+        font-size: 32px;
+        color: #6262ff;
+        padding: 0;    
+    }
+}
+
+.sit-level-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-top: 35px;
+
+    .divider{
+        position: absolute;
+        bottom: 70px;
+        left: 0;
+    }
+}
+
+.sit-level-container{
+    text-align: center;
+}
+
+.sit-level-list{
+    display: flex;
+    flex-direction: column;
+}
