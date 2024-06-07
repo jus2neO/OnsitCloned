@@ -55,8 +55,8 @@ const Navigation = () => {
                                     <ul className='nav nav-pills flex-column mt-3 mt-sm-0'>
                                         <li className='nav-item text-white fs-4 my-1 py-2 py-sm-0'>
                                             <Link to="/" className='nav-link text-white fs-5' aria-current="page">
-                                                <i className='bi bi-speedometer2' />
-                                                <span className='ms-3 d-none d-sm-inline'>Dashboard</span>
+                                                <i className='bi bi-house' />
+                                                <span className='ms-3 d-none d-sm-inline'>Homepage</span>
                                             </Link>
                                         </li>
                                         <li className='nav-item text-white fs-4 my-1 py-2 py-sm-0'>
