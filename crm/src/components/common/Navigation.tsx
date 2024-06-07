@@ -48,8 +48,9 @@ const Navigation = () => {
                         <div className='onsit-bg col-auto col-2 min-vh-100 d-flex justify-content-between flex-column'>
                             <div className="navigation">
                                 <div>
-                                    <a className='navbar-brand'>
-                                        <span className='ms-1 fs-4'>ONSIT</span>
+                                
+                                    <a href="/" className='navbar-brand'>
+                                        <span className='fw-bold ms-1 fs-4'>ONSIT</span>
                                     </a>
                                     <hr className='text-secondary d-none d-sm-block' />
                                     <ul className='nav nav-pills flex-column mt-3 mt-sm-0'>
